@@ -21,7 +21,7 @@ cd POO
 
 A captura mostra a clonagem do repositório concluída no PowerShell.
 
-![Clonagem do repositório no PowerShell](evidencias/07-clone-terminal.png)
+![Clonagem do repositório no PowerShell](evidencias/07-clonagem.png)
 
 Depois, consultei o estado da cópia local e o endereço remoto:
 
@@ -32,7 +32,7 @@ git remote -v
 
 Na captura, a `main` está sincronizada com `origin/main` e sem alterações pendentes. O endereço do repositório POO aparece configurado para busca e envio.
 
-![Status da cópia local e endereço remoto](evidencias/08-status-remoto-terminal.png)
+![Status da cópia local e endereço remoto](evidencias/08-status.png)
 
 ## 2. Alterações e commits
 
@@ -88,6 +88,6 @@ O histórico mostra os commits realizados, e a lista de branches permite verific
 
 No PowerShell, a listagem mostra a `main` local e as branches remotas. O gráfico registra os commits da `main` e da `bonus-git` em linhas separadas.
 
-![Histórico de commits e branches no PowerShell](evidencias/09-historico-branches-terminal.png)
+![Histórico de commits e branches no PowerShell](evidencias/09-historico.png)
 
 O arquivo `exemplo.txt` ficou com uma versão na `main` e outra na `bonus-git`, sem fazer merge entre elas.
