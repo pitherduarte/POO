@@ -6,7 +6,9 @@
 
 ## Projeto Masterbank
 
-O Masterbank é um sistema simples de contas bancárias feito em Java, utilizando BlueJ, ORMLite e SQLite. A classe `ContaBancaria` representa uma conta, `Database` faz a conexão com o banco de dados, `ContaRepository` realiza as operações CRUD e `TesteCRUD` contém os métodos usados nos testes.
+O Masterbank é um sistema de contas bancárias desenvolvido em Java e testado no BlueJ. Ele permite cadastrar contas com titular e saldo inicial, consultar uma conta pelo ID, listar os cadastros, fazer depósitos e saques e excluir contas. Cada conta recebe um ID automático e um número no formato `0001 / 000001-0`. O depósito acrescenta dinheiro ao saldo, enquanto o saque só é realizado quando o valor é válido e existe saldo suficiente.
+
+Os dados são armazenados em um banco SQLite, utilizando ORMLite. A classe `ContaBancaria` guarda os dados da conta e os métodos de depósito e saque; `Database` gerencia a conexão; `ContaRepository` realiza as operações CRUD; e `TesteCRUD` permite executar os testes diretamente pelo BlueJ.
 
 ## Create — Cadastro
 
