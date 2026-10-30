@@ -1,7 +1,7 @@
-# Atividade Bônus — Git e GitHub
+**Nome:** Pither Mikael Gonçalves Duarte
 
-**Nome:** Pither Mikael Gonçalves Duarte  
-**Matrícula:** 202600679  
+**Matrícula:** 202600679
+
 **Disciplina:** Programação Orientada a Objetos
 
 Nesta atividade, utilizei o Git para controlar as versões de arquivos e o GitHub para armazenar o repositório. Os procedimentos seguiram o [tutorial de Git do professor](https://github.com/marceloakira/tutorials/blob/main/git/tutorial_git.md).
@@ -18,6 +18,21 @@ Para fazer uma cópia no computador, utilizei:
 git clone https://github.com/pitherduarte/POO.git
 cd POO
 ```
+
+A captura mostra a clonagem do repositório concluída no PowerShell.
+
+![Clonagem do repositório no PowerShell](evidencias/07-clone-terminal.png)
+
+Depois, consultei o estado da cópia local e o endereço remoto:
+
+```bash
+git status
+git remote -v
+```
+
+Na captura, a `main` está sincronizada com `origin/main` e sem alterações pendentes. O endereço do repositório POO aparece configurado para busca e envio.
+
+![Status da cópia local e endereço remoto](evidencias/08-status-remoto-terminal.png)
 
 ## 2. Alterações e commits
 
@@ -70,5 +85,9 @@ O histórico mostra os commits realizados, e a lista de branches permite verific
 ![Histórico de commits](evidencias/05-historico-github.jpg)
 
 ![Branches no GitHub](evidencias/06-branches-github.jpg)
+
+No PowerShell, a listagem mostra a `main` local e as branches remotas. O gráfico registra os commits da `main` e da `bonus-git` em linhas separadas.
+
+![Histórico de commits e branches no PowerShell](evidencias/09-historico-branches-terminal.png)
 
 O arquivo `exemplo.txt` ficou com uma versão na `main` e outra na `bonus-git`, sem fazer merge entre elas.
