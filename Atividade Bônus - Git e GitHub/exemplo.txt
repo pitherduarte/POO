@@ -1,2 +1,3 @@
 Arquivo de exemplo da atividade de Git e GitHub.
-Versão inicial na branch main.
+Versão alterada na branch bonus-git.
+Esta alteração permanece separada da main.
