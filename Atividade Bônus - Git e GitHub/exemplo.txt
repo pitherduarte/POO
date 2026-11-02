@@ -1,0 +1,2 @@
+Arquivo de exemplo da atividade de Git e GitHub.
+Versão inicial na branch main.

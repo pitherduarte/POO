@@ -1,0 +1,6 @@
+*.class
+*.ctxt
+*.db
+*.db-*
+*.log
+Thumbs.db
